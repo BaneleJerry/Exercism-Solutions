@@ -25,7 +25,7 @@ class BirdWatcher {
     }
 
     public int getCountForFirstDays(int numberOfDays) {
-        return Arrays.stream(birdsPerDay, 0, Math.min(numberOfDays, birdsPerDay.length)).sum();
+        return Arrays.stream(birdsPerDay).limit(numberOfDays).sum();
     }
 
     public int getBusyDays() {
