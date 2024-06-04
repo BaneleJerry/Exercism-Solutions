@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogLevelsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-03T23:05:46" hostname="banele-VivoBook-15-ASUS-Laptop-X540UAR" time="0.243">
+  <properties/>
+  <testcase name="The message method returns the log line's message of an error log" classname="LogLevelsTest" time="0.243"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
